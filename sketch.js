@@ -58,7 +58,7 @@ function draw() {
   end = MandR[c].End[s];
   ending = MandR[c].ending;
   hold = floor(map(windowWidth, 60, 1440, 0, 90));
-  if (windowWidth >= 480 && windowHeight >= 520) {
+  if (windowWidth >= 450 && windowHeight >= 520) {
     background(255);
     slid.show();
     sel.show();
